@@ -3,6 +3,9 @@
   "version": "0.0.11-nd",
   "description": "A pngquant addon of node",
   "main": "index.js",
+  "files": [
+    "binding.gyp", "src"
+  ],
   "directories": {
     "test": "test"
   },
