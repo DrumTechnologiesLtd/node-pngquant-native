@@ -27,12 +27,31 @@
             'src/pngquant/lib/viter.c',
             'src/pngquant/lib/nearest.c', 
             'src/pngquant/lib/libimagequant.c',
+
+            'src/libpng-1.6.12/pngerror.c',
+            'src/libpng-1.6.12/pngget.c',
+            'src/libpng-1.6.12/pngmem.c',
+            'src/libpng-1.6.12/pngpread.c',
+            'src/libpng-1.6.12/pngread.c',
+            'src/libpng-1.6.12/pngrio.c',
+            'src/libpng-1.6.12/pngrtran.c',
+            'src/libpng-1.6.12/pngrutil.c',
+            'src/libpng-1.6.12/pngset.c',
+            'src/libpng-1.6.12/pngtrans.c',
+            'src/libpng-1.6.12/pngwio.c',
+            'src/libpng-1.6.12/pngwrite.c',
+            'src/libpng-1.6.12/pngwtran.c',
+            'src/libpng-1.6.12/pngwutil.c',
+            'src/libpng-1.6.12/png.c'
+
+        ],
+        'include_dirs': [
+            'src/libpng-1.6.12'
         ],
         'conditions': [
             ['OS == "win"', {
             }, {
                 'libraries': [
-                    '-lpng',
                     '-lz',
                     '-lm'
                 ]
