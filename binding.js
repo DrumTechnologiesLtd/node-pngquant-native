@@ -24,11 +24,12 @@ for (i = 0, count = vars.length; i < count; i++) {
 
 count = tryList.length;
 for (i = 0; i < count; i++) {
-console.log("file=", file);
     file = tryList[i];
+console.log("file=", file);
     if (fs.existsSync(file)) {
         try {
             exports = require(file);
+console.log("exports=", exports);
         } catch (e) {
 console.log("err=", e);
             continue; // try next
