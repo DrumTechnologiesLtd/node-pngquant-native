@@ -33,6 +33,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-git');
     grunt.loadNpmTasks('grunt-npm-install');
     grunt.loadNpmTasks('grunt-publish');
+    grunt.loadNpmTasks('grunt-shell');
 
     grunt.registerTask('writePackageJson', 'Set the platform in the package.json', function() {
         pkg.name += "-" + os.platform();
