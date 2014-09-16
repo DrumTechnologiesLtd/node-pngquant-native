@@ -3,6 +3,10 @@
 
 node-pngquant-native is an addon of node, support node version v0.8.0 to latest, It compress a `buffer` of `.png` image, so can't call other processes.
 
+## NetDev Ltd
+
+To build: set the version number in package.json and "grunt".  This will build the correct version (Mac or Windows) of the module and publish it to the repository.
+
 ## install
 
     npm install -g node-pngquant-native
