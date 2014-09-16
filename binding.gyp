@@ -1,11 +1,7 @@
 {
-    'conditions': [
-        ['OS=="win"', {
-            'variables': {
-                'THIRD_PATH%': 'third'
-            }
-        }]
-    ],
+    'variables': {
+        'THIRD_PATH%': 'third'
+    },
     'targets': [{
 
         'target_name': 'pngquant_native',
@@ -67,12 +63,9 @@
             'third/zlib/uncompr.c',
             'third/zlib/zutil.c'
         ],
-        'conditions': [
-            ['OS == "win"', {
-                'include_dirs': [
-                    '<(THIRD_PATH)/libpng',
-                    '<(THIRD_PATH)/zlib']
-            }]
-        ],
+        'include_dirs': [
+            '<(THIRD_PATH)/libpng',
+            '<(THIRD_PATH)/zlib'
+        ]
     }]
 }
