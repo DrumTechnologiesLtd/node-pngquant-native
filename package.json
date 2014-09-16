@@ -1,6 +1,6 @@
 {
     "name": "node-pngquant-native",
-    "version": "0.0.11-nd-7",
+    "version": "0.0.11-nd-10",
     "description": "pngquant native plugin of node",
     "main": "index.js",
     "directories": {
@@ -8,8 +8,7 @@
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "grunt default",
-        "install": "node-gyp rebuild"
+        "build": "grunt default"
     },
     "repository": {
         "type": "git",
