@@ -1,31 +1,38 @@
 {
-  "name": "node-pngquant-native",
-  "version": "0.0.11-nd-2",
-  "description": "pngquant native plugin of node",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "install": "node-gyp rebuild"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/xiangshouding/node-pngcrush-native.git"
-  },
-  "keywords": [
-    "fis",
-    "png",
-    "pngquant",
-    "image",
-    "reduce",
-    "ie6"
-  ],
-  "author": "xiangshouding <xiangshouding@baidu.com>",
-  "license": "MIT",
-  "gypfile": true,
-  "bugs": {
-    "url": "https://github.com/xiangshouding/node-pngcrush-native/issues"
-  }
+    "name": "node-pngquant-native-darwin-darwin",
+    "version": "0.0.11-nd-2",
+    "description": "pngquant native plugin of node",
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "grunt default",
+        "install": "node-gyp rebuild"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/xiangshouding/node-pngcrush-native.git"
+    },
+    "keywords": [
+        "fis",
+        "png",
+        "pngquant",
+        "image",
+        "reduce",
+        "ie6"
+    ],
+    "author": "xiangshouding <xiangshouding@baidu.com>",
+    "license": "MIT",
+    "gypfile": true,
+    "bugs": {
+        "url": "https://github.com/xiangshouding/node-pngcrush-native/issues"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.5",
+        "grunt-cli": "^0.1.13",
+        "grunt-git": "~0.2.10"
+    }
 }
+
