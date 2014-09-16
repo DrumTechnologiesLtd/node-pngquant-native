@@ -9,7 +9,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "grunt default",
-        "install": "echo \"Do nothing\""
+        "install": "echo \"Stop 'npm publish' doing node-gyp on install\""
     },
     "repository": {
         "type": "git",
