@@ -10,7 +10,7 @@ module.exports = function(grunt) {
         gitcheckout: {
             task: {
                 options: {
-                    branch: os.platform() == "win32" ? "win32" : "master"
+                    branch: os.platform() === "win32" ? "win32" : "master"
                 }
             }
         },
