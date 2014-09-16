@@ -1,6 +1,6 @@
 {
     "name": "node-pngquant-native",
-    "version": "0.0.11-nd-14",
+    "version": "0.0.11-nd-16",
     "description": "pngquant native plugin of node",
     "main": "index.js",
     "directories": {
